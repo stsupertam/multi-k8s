@@ -7,7 +7,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: mydomainname.com
+  commonName: santitham.me
   dnsName:
     - santitham.me
     - www.santitham.me
