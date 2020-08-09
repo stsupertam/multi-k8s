@@ -9,12 +9,12 @@ spec:
     kind: ClusterIssuer
   commonName: mydomainname.com
   dnsName:
-    - mydomainname.com
-    - www.mydomainname.com
+    - santitham.me
+    - www.santitham.me
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
-          - mydomain.com
-          - www.mydomain.com
+          - santitham.me
+          - www.santitham.me
